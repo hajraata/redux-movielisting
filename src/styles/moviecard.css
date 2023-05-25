@@ -1,0 +1,94 @@
+.card-container {
+  width: 200px;
+  height: 450px;
+  overflow: hidden;
+  margin: 5vh 1vw;
+  background-color: rgb(245, 245, 245);
+  box-shadow: 2px 2px 10px rgb(203, 202, 202);
+}
+
+.Card.Title {
+  cursor: pointer;
+}
+
+.card-img {
+  position: inherit;
+  height: 50%;
+  width: 90%;
+  margin: 5% auto;
+}
+
+.card-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* .rating-container {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  top: 40%;
+  left: 10%;
+  background-color: black;
+  color: white;
+} */
+
+.card-content {
+  width: 80%;
+  margin: 10% auto;
+}
+
+.card-content p {
+  margin-top: 5%;
+}
+
+.card-heading {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.truncate {
+  font-size: 0.7rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* number of lines to show */
+  line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.favorite-btn,
+.unfavorite-btn {
+  position: absolute;
+  top: 45%;
+  right: 15%;
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.favorite-btn:hover {
+  height: 35px;
+  width: 35px;
+}
+
+.details-btn {
+  width: 80%;
+  position: absolute;
+  bottom: 10px;
+  left: 10%;
+}

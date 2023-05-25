@@ -1,0 +1,17 @@
+.movies-container {
+  width: 95vw;
+  margin: 5vh auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+}
+
+.movie-link {
+  color: black;
+  text-decoration: none;
+}
+
+.movie-link:visited {
+  color: black;
+}

@@ -1,0 +1,21 @@
+.movie-details-container {
+  width: 80vw;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.movie-poster {
+  width: 70%;
+  height: 70vh;
+}
+
+.movie-poster img {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
+.movie-details {
+  padding: 10vh 5vw;
+}
